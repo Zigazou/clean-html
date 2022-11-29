@@ -1,0 +1,28 @@
+const usefulTags = [
+  "p",
+  "h1",
+  "h2",
+  "h3",
+  "h4",
+  "h5",
+  "h6",
+  "strong",
+  "em",
+  "ul",
+  "ol",
+  "li",
+  "sup",
+  "sub",
+  "a",
+  "img",
+  "pre",
+  "blockquote",
+  "cite",
+  "address",
+  "dd",
+  "dl",
+  "dt",
+  "hr",
+]
+
+const isUsefulTag = (element) => tagSatisfying(usefulTags, element)
